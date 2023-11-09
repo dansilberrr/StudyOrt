@@ -123,6 +123,9 @@
     <EmbeddedResource Include="archivos.resx">
       <DependentUpon>archivos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Perfil.resx">
       <DependentUpon>Perfil.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +161,28 @@
   <ItemGroup>
     <None Include="Resources\Rectangle 75 %281%29.jpg" />
     <None Include="Resources\LOG IN LEMON pasar %281%29.jpg" />
+    <None Include="Resources\FONDOPRIMERAÑO.jpg" />
+    <None Include="Resources\resumen en blanco.png" />
+    <None Include="Resources\home-1.png" />
+    <None Include="Resources\SUBIR TACHADO %284%29.png" />
+    <None Include="Resources\share.png" />
+    <None Include="Resources\SUBIR TACHADO %283%29.png" />
+    <None Include="Resources\person.png" />
+    <None Include="Resources\system-uicons_exit-left %281%29.png" />
+    <None Include="Resources\CLICK  AQUI PARA SUBIR ARCHIVO.png" />
+    <None Include="Resources\botonsubir.png" />
+    <None Include="Resources\botonsubir1.png" />
+    <None Include="Resources\clickaquipARASUBIR.png" />
+    <None Include="Resources\POSTA.png" />
+    <None Include="Resources\FONDOPRIMERAÑO1.jpg" />
+    <None Include="Resources\SEGUNDOAÑOFONDO.jpg" />
+    <None Include="Resources\registretstasstddfytawerfoiuuy} %285%29.png" />
+    <None Include="Resources\inicio 1 añoii %288%29.png" />
+    <None Include="Resources\inicio 1 añoii %289%29.png" />
+    <None Include="Resources\person1.png" />
+    <None Include="Resources\dancerraelorto.png" />
+    <None Include="Resources\dancarcel.png" />
+    <None Include="Resources\Group 43.png" />
     <Content Include="StudyOrtDB.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -118,10 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Rectangle 75 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 75 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botonsubir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botonsubir1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inicio 1 añoii (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inicio 1 añoii (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOG IN LEMON pasar (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOG IN LEMON pasar (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dancarcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dancarcel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUBIR TACHADO (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUBIR TACHADO (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registretstasstddfytawerfoiuuy} (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registretstasstddfytawerfoiuuy} (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SUBIR TACHADO (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SUBIR TACHADO (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clickaquipARASUBIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clickaquipARASUBIR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 75 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 75 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="resumen en blanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resumen en blanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dancerraelorto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dancerraelorto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botonsubir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botonsubir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="system-uicons_exit-left (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\system-uicons_exit-left (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FONDOPRIMERAÑO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FONDOPRIMERAÑO1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inicio 1 añoii (9)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inicio 1 añoii (9).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEGUNDOAÑOFONDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SEGUNDOAÑOFONDO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLICK  AQUI PARA SUBIR ARCHIVO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLICK  AQUI PARA SUBIR ARCHIVO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FONDOPRIMERAÑO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FONDOPRIMERAÑO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group 43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group 43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

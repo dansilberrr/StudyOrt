@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.OleDb;
+using System.Windows.Forms;
 
 namespace StudyOrt
 {
@@ -24,33 +18,43 @@ namespace StudyOrt
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
-            con.Open();
-            string login = "SELECT * FROM users WHERE DNI= " + TxtBxDni.Text + " and PASSWORD= '" + TxtBxContra.Text + "'";
-            cmd = new OleDbCommand(login, con);
-            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds, "Login");
-
-            if (ds.Tables["Login"].Rows.Count == 1)
+            if (TxtBxDni.Text == "" || TxtBxContra.Text == "")
             {
-                Form3 f3 = new Form3();
-                f3.USUARIO = TxtBxDni.Text;
-                f3.Show();
-                this.Hide();
+                MessageBox.Show("Dni o Contraseña vacíos", "Login Fallido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                TxtBxDni.Focus();
             }
             else
             {
-                MessageBox.Show("Dni o Contraseña inválidos. Volvé a intentar.", "Login Fallido", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                TxtBxDni.Text = "";
-                TxtBxContra.Text = "";
-                TxtBxDni.Focus();
+                con.Open();
+                string login = "SELECT * FROM users WHERE DNI= " + TxtBxDni.Text + " and PASSWORD= '" + TxtBxContra.Text + "'";
+                cmd = new OleDbCommand(login, con);
+                OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                da.Fill(ds, "Login");
+
+                if (ds.Tables["Login"].Rows.Count == 1)
+                {
+                    Form3 f3 = new Form3();
+                    f3.USUARIO = TxtBxDni.Text;
+                    f3.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Dni o Contraseña inválidos. Volvé a intentar.", "Login Fallido", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    TxtBxDni.Text = "";
+                    TxtBxContra.Text = "";
+                    TxtBxDni.Focus();
+
+                }
+                con.Close();
 
             }
-            con.Close();
+
         }
 
 
-        
+
 
         private void BtnCrearCuenta_Click(object sender, EventArgs e)
         {
@@ -64,11 +68,22 @@ namespace StudyOrt
             if (chkBoxmostrar.Checked)
             {
                 TxtBxContra.PasswordChar = '\0';
+
             }
             else
             {
                 TxtBxContra.PasswordChar = '*';
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtBxDni_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

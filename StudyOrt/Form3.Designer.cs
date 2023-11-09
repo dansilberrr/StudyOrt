@@ -29,35 +29,46 @@ namespace StudyOrt
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.BtnPrimerAño = new System.Windows.Forms.Button();
             this.BtnSegundoAño = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnPrimerAño
             // 
-            this.BtnPrimerAño.Location = new System.Drawing.Point(327, 108);
+            this.BtnPrimerAño.BackColor = System.Drawing.Color.Transparent;
+            this.BtnPrimerAño.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnPrimerAño.BackgroundImage")));
+            this.BtnPrimerAño.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnPrimerAño.FlatAppearance.BorderSize = 0;
+            this.BtnPrimerAño.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnPrimerAño.Location = new System.Drawing.Point(268, 193);
             this.BtnPrimerAño.Name = "BtnPrimerAño";
-            this.BtnPrimerAño.Size = new System.Drawing.Size(137, 42);
+            this.BtnPrimerAño.Size = new System.Drawing.Size(397, 94);
             this.BtnPrimerAño.TabIndex = 0;
-            this.BtnPrimerAño.Text = "Primer Año";
-            this.BtnPrimerAño.UseVisualStyleBackColor = true;
+            this.BtnPrimerAño.UseVisualStyleBackColor = false;
             this.BtnPrimerAño.Click += new System.EventHandler(this.BtnPrimerAño_Click);
             // 
             // BtnSegundoAño
             // 
-            this.BtnSegundoAño.Location = new System.Drawing.Point(327, 194);
+            this.BtnSegundoAño.BackColor = System.Drawing.Color.Transparent;
+            this.BtnSegundoAño.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnSegundoAño.BackgroundImage")));
+            this.BtnSegundoAño.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.BtnSegundoAño.FlatAppearance.BorderSize = 0;
+            this.BtnSegundoAño.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSegundoAño.Location = new System.Drawing.Point(268, 315);
             this.BtnSegundoAño.Name = "BtnSegundoAño";
-            this.BtnSegundoAño.Size = new System.Drawing.Size(137, 45);
+            this.BtnSegundoAño.Size = new System.Drawing.Size(397, 96);
             this.BtnSegundoAño.TabIndex = 1;
-            this.BtnSegundoAño.Text = "Segundo Año";
-            this.BtnSegundoAño.UseVisualStyleBackColor = true;
+            this.BtnSegundoAño.UseVisualStyleBackColor = false;
             this.BtnSegundoAño.Click += new System.EventHandler(this.BtnSegundoAño_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(933, 554);
             this.Controls.Add(this.BtnSegundoAño);
             this.Controls.Add(this.BtnPrimerAño);
             this.Name = "Form3";

@@ -49,7 +49,19 @@ namespace StudyOrt
 
         private void archivos_Load(object sender, EventArgs e)
         {
-            LblAño.Text = curso;
+            if (curso == "Primero")
+            {
+                LblAño.Text = "1° Año";
+                 flowLayoutPanel1.BackgroundImage = StudyOrt.Properties.Resources.FONDOPRIMERAÑO1;
+                PanelMenu.BackColor = Color.FromArgb(70, 254, 254, 254);
+
+            }
+            else
+            {
+                LblAño.Text = "2° Año";
+                PanelMenu.BackColor = Color.FromArgb(70, 254, 254, 254);
+                flowLayoutPanel1.BackgroundImage = StudyOrt.Properties.Resources.SEGUNDOAÑOFONDO;
+            }
 
             con.Open();
 
@@ -69,10 +81,10 @@ namespace StudyOrt
                 uc.Aclaraciones = ds.Tables["info"].Rows[i][2].ToString();
                 uc.Fecha = ds.Tables["info"].Rows[i][3].ToString();
                 uc.Url = ds.Tables["info"].Rows[i][4].ToString();
+                uc.Materia = ds.Tables["info"].Rows[i][7].ToString();
+                uc.Margin = new Padding(10, 10, 10, 10); 
 
 
-                Random rng = new Random();
-                uc.BackColor = Color.FromArgb(rng.Next(-16777216, 0)); ;
                 flowLayoutPanel1.Controls.Add(uc);
 
                 Thread.Sleep(10);
@@ -124,8 +136,29 @@ namespace StudyOrt
 
         }
 
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
 
-        
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void LblAño_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PanelMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

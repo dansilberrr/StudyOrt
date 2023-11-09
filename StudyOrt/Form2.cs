@@ -95,5 +95,10 @@ namespace StudyOrt
             f1.Show();
             this.Hide();
         }
+
+        private void LblRegist_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

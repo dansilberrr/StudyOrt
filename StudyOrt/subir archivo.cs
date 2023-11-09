@@ -74,14 +74,7 @@ namespace StudyOrt
             comboBox1.SelectedItem = comboBox1.Items[0];
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            archivos archivos = new archivos("");
-            archivos.USUARIO = USUARIO;
-            archivos.curso = curso;
-            archivos.Show();
-            this.Hide();
-        }
+       
 
         private void BtnSubir_Click(object sender, EventArgs e)
         {
@@ -112,6 +105,31 @@ namespace StudyOrt
 
                 MessageBox.Show("Tu archivo se subió correctamente", "Subida exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        public void btnCasita_Click(object sender, EventArgs e)
+        {
+            Form3 F3 = new Form3();
+            F3.USUARIO = USUARIO;
+            F3.Show();
+            this.Hide();
+        }
+
+        private void BtnLogitoPerfil_Click(object sender, EventArgs e)
+        {
+            Perfil p1 = new Perfil();
+            p1.USUARIO = USUARIO;
+            p1.curso = curso;
+            p1.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            USUARIO = string.Empty;
+            Form1 F1 = new Form1();
+            F1.Show();
+            this.Hide();
         }
     }
 }

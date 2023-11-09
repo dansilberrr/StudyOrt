@@ -35,77 +35,96 @@ namespace StudyOrt
             this.lblAcl = new System.Windows.Forms.Label();
             this.lblFecha = new System.Windows.Forms.Label();
             this.btnDescArchivo = new System.Windows.Forms.Button();
+            this.lblMateria = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
+            this.lblNombre.Font = new System.Drawing.Font("Minion Pro Cond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.Location = new System.Drawing.Point(16, 16);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(42, 13);
+            this.lblNombre.Size = new System.Drawing.Size(60, 22);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "nombre\r\n";
             // 
             // lblTema
             // 
             this.lblTema.AutoSize = true;
-            this.lblTema.Location = new System.Drawing.Point(16, 32);
+            this.lblTema.Font = new System.Drawing.Font("Minion Pro Cond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTema.Location = new System.Drawing.Point(16, 33);
             this.lblTema.Name = "lblTema";
-            this.lblTema.Size = new System.Drawing.Size(34, 13);
+            this.lblTema.Size = new System.Drawing.Size(45, 22);
             this.lblTema.TabIndex = 1;
             this.lblTema.Text = "Tema";
             // 
             // lbltxtAla
             // 
             this.lbltxtAla.AutoSize = true;
-            this.lbltxtAla.Location = new System.Drawing.Point(16, 48);
+            this.lbltxtAla.Font = new System.Drawing.Font("Minion Pro Cond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltxtAla.Location = new System.Drawing.Point(16, 50);
             this.lbltxtAla.Name = "lbltxtAla";
-            this.lbltxtAla.Size = new System.Drawing.Size(68, 13);
+            this.lbltxtAla.Size = new System.Drawing.Size(89, 22);
             this.lbltxtAla.TabIndex = 2;
             this.lbltxtAla.Text = "Aclaraciones";
             // 
             // lblAcl
             // 
             this.lblAcl.AutoSize = true;
-            this.lblAcl.Location = new System.Drawing.Point(16, 64);
+            this.lblAcl.Font = new System.Drawing.Font("Minion Pro Cond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAcl.Location = new System.Drawing.Point(15, 67);
             this.lblAcl.Name = "lblAcl";
-            this.lblAcl.Size = new System.Drawing.Size(148, 13);
+            this.lblAcl.Size = new System.Drawing.Size(194, 22);
             this.lblAcl.TabIndex = 3;
             this.lblAcl.Text = "Aclaraciones(lo que escribe x)";
             // 
             // lblFecha
             // 
             this.lblFecha.AutoSize = true;
-            this.lblFecha.Location = new System.Drawing.Point(16, 80);
+            this.lblFecha.Font = new System.Drawing.Font("Minion Pro Cond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(13, 150);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(37, 13);
+            this.lblFecha.Size = new System.Drawing.Size(46, 22);
             this.lblFecha.TabIndex = 4;
             this.lblFecha.Text = "Fecha";
             // 
             // btnDescArchivo
             // 
-            this.btnDescArchivo.Location = new System.Drawing.Point(143, 11);
+            this.btnDescArchivo.BackColor = System.Drawing.Color.White;
+            this.btnDescArchivo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDescArchivo.Location = new System.Drawing.Point(-1, -1);
             this.btnDescArchivo.Name = "btnDescArchivo";
-            this.btnDescArchivo.Size = new System.Drawing.Size(111, 23);
+            this.btnDescArchivo.Size = new System.Drawing.Size(260, 175);
             this.btnDescArchivo.TabIndex = 5;
-            this.btnDescArchivo.Text = "Descargar Archivo";
-            this.btnDescArchivo.UseVisualStyleBackColor = true;
+            this.btnDescArchivo.UseVisualStyleBackColor = false;
             this.btnDescArchivo.Click += new System.EventHandler(this.btnDescArchivo_Click);
+            // 
+            // lblMateria
+            // 
+            this.lblMateria.AutoSize = true;
+            this.lblMateria.Font = new System.Drawing.Font("Minion Pro Cond", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMateria.Location = new System.Drawing.Point(14, 128);
+            this.lblMateria.Name = "lblMateria";
+            this.lblMateria.Size = new System.Drawing.Size(47, 22);
+            this.lblMateria.TabIndex = 6;
+            this.lblMateria.Text = "label1";
             // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackgroundImage = global::StudyOrt.Properties.Resources.resumen_en_blanco;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.btnDescArchivo);
+            this.Controls.Add(this.lblMateria);
             this.Controls.Add(this.lblFecha);
             this.Controls.Add(this.lblAcl);
             this.Controls.Add(this.lbltxtAla);
             this.Controls.Add(this.lblTema);
             this.Controls.Add(this.lblNombre);
+            this.Controls.Add(this.btnDescArchivo);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(262, 104);
+            this.Size = new System.Drawing.Size(262, 177);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,5 +138,6 @@ namespace StudyOrt
         private System.Windows.Forms.Label lblAcl;
         private System.Windows.Forms.Label lblFecha;
         private System.Windows.Forms.Button btnDescArchivo;
+        private System.Windows.Forms.Label lblMateria;
     }
 }

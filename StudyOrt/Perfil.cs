@@ -57,10 +57,10 @@ namespace StudyOrt
                 uc.Aclaraciones = ds.Tables["info"].Rows[i][2].ToString();
                 uc.Fecha = ds.Tables["info"].Rows[i][3].ToString();
                 uc.Url = ds.Tables["info"].Rows[i][4].ToString();
+                uc.Materia = ds.Tables["info"].Rows[i][7].ToString();
+                uc.Margin = new Padding(10, 10, 10, 10);
 
 
-                Random rng = new Random();
-                uc.BackColor = Color.FromArgb(rng.Next(-16777216, 0)); ;
                 flowLayoutPanel1.Controls.Add(uc);
 
                 Thread.Sleep(10);
@@ -95,12 +95,41 @@ namespace StudyOrt
             this.Hide();
         }
 
-        private void btnVolver_Click(object sender, EventArgs e)
+        
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-            archivos F5 = new archivos("");
-            F5.curso = curso;
-            F5.USUARIO = USUARIO;
-            F5.Show();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+            USUARIO = string.Empty;
+            Form1 F1 = new Form1();
+            F1.Show();
+            this.Hide();
+        }
+
+        private void casita_Click(object sender, EventArgs e)
+        {
+            Form3 F3 = new Form3();
+            F3.USUARIO = USUARIO;
+            F3.Show();
+            this.Hide();
+        }
+
+        private void subirito_Click(object sender, EventArgs e)
+        {
+            subir_archivo subir_Archivo = new subir_archivo();
+            subir_Archivo.USUARIO = USUARIO;
+            subir_Archivo.curso = curso;
+            subir_Archivo.Show();
             this.Hide();
         }
     }

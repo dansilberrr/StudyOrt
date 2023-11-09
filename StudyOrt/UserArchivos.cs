@@ -21,6 +21,7 @@ namespace StudyOrt
         private string _aclaraciones;
         private string _url;
         private string _fecha;
+        private string _materia;
 
         [Category("Custom Props")]
         public string Nombre
@@ -51,6 +52,12 @@ namespace StudyOrt
         {
             get { return _fecha; }
             set { _fecha = value; lblFecha.Text = value; }
+        }
+        [Category("Custom Props")]
+        public string Materia
+        {
+            get { return _materia; }
+            set { _materia = value; lblMateria.Text = value; }
         }
         public UserControl1()
         {
